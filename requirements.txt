@@ -10,3 +10,4 @@ tornado==4.5.2
 urllib3==1.22
 pwntools==3.12
 safeurl==0.0.7
+cryptography>=39.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
